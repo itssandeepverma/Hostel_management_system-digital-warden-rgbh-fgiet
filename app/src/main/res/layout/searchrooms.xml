@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="24dp"
+        android:paddingTop="50dp"
+        android:paddingRight="24dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Floor :"
+                android:layout_marginLeft="57dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/floor">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room :"
+                android:layout_marginLeft="57dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/room">
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="View Room"
+            android:padding="12dp"/>
+
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lv"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

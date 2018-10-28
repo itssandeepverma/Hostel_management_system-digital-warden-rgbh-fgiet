@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="warden"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/back"
+        android:id="@+id/mob_warden" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electrician"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:id="@+id/mob_electrician"
+        app:layout_constraintTop_toBottomOf="@+id/mob_warden"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambulance Driver"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:id="@+id/mob_ambulance"
+        app:layout_constraintTop_toBottomOf="@+id/mob_electrician"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gate Keeper"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:id="@+id/mob_gatekeeper"
+        app:layout_constraintTop_toBottomOf="@+id/mob_ambulance"/>
+
+</android.support.constraint.ConstraintLayout>

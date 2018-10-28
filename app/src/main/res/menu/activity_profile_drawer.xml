@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myprofile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My profile" />
+        <item
+            android:id="@+id/editprofile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Edit profile" />
+        <item
+            android:id="@+id/searchrooms"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Search Rooms" />
+        <item
+            android:id="@+id/hostel_details"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Apply for Room"/>
+        <item
+            android:id="@+id/notices"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notices"/>
+
+        <item
+            android:id="@+id/complain"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Complain" />
+        <item
+            android:id="@+id/cpassword"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Contacts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

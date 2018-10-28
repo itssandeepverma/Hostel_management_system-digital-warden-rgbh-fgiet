@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Splash">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="100dp"
+        android:id="@+id/icon"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/base_logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:text="Rajiv gandhi Boys Hostel"
+        android:textSize="25dp"
+        android:id="@+id/shre"
+        android:layout_marginBottom="90dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="DIGITAL WARDEN "
+        android:gravity="center"
+        android:id="@+id/here"
+        android:textSize="20dp"
+        android:layout_marginBottom="260dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="FGIET, RAEBARELI"
+        android:gravity="center"
+        android:id="@+id/fgiet"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        />
+</android.support.constraint.ConstraintLayout>

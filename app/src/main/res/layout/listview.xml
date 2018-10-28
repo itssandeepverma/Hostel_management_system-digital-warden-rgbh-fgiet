@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_name"
+        android:textSize="20dp"
+        android:textColor="#241244"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_branch"
+        android:textColor="#241244"
+        app:layout_constraintTop_toBottomOf="@+id/lv_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_year"
+        android:textColor="#241244"
+        app:layout_constraintTop_toBottomOf="@+id/lv_branch">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/lv_bed"
+        android:textColor="#241244"
+        app:layout_constraintTop_toBottomOf="@id/lv_year"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_rollno"
+        android:textColor="#241244"
+        app:layout_constraintTop_toBottomOf="@id/lv_bed"/>
+
+</android.support.constraint.ConstraintLayout>
